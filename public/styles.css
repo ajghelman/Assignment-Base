@@ -8,8 +8,16 @@ h1{
     color:oldlace;
 }
 
-.container{
-	width: 960 px;
+section{
 	display: flex;
 	justify-content: center;
+}
+
+input{
+    width: 400px;
+    height: 25px;
+}
+
+div{
+    max-width: 960px;
 }
