@@ -10,13 +10,12 @@ h1{
 .title{
     color:oldlace;
     padding-top: 2%;
-    padding-bottom: -5%;
 }
 
 section{
 	display: flex;
 	justify-content: center;
-    padding-bottom: 0%;
+    padding: auto;
 }
 
 input{
@@ -34,11 +33,11 @@ div{
     background-image: linear-gradient(rgb(255, 123, 0), oldlace);
     width: 400px;
     height: 140px;
-    margin: 0% 36.75%;
+    padding-top: 10%;
 }
 
 .suggestions{
-    background-color: oldlace;
+    background-image: linear-gradient(rgb(255, 123, 0), oldlace);
     width: 400px;
     display: block;
 }

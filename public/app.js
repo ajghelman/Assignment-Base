@@ -20,7 +20,10 @@ function displayMatches(){
         return `
             <li>
                 <span class="name">${loc.name}</span>
-                <span class="zip">${zipNum}</span>
+                <span class="name">${loc.category}</span>
+                <span class="zip">${loc.address_line_1}</span>
+                <span class="name">${loc.city}</span>
+                <span class="name">${zipNum}</span>
             </li>
         `;
     }).join('');
