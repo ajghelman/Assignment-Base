@@ -18,12 +18,12 @@ function displayMatches(){
         const regex = new RegExp(this.value, 'gi');
         const zipNum = loc.zip.replace(regex, `<span class="hl">${this.value}</span>`)
         return `
-            <li>
-                <span class="name">${loc.name}</span>
-                <span class="name">${loc.category}</span>
-                <span class="zip">${loc.address_line_1}</span>
-                <span class="name">${loc.city}</span>
-                <span class="name">${zipNum}</span>
+            <li class="return">
+                <span class="name">${loc.name}</span><br>
+                <span class="category">${loc.category}</span><br>
+                <span class="address">${loc.address_line_1}</span><br>
+                <span class="city">${loc.city}</span><br>
+                <span class="zip">${zipNum}</span>
             </li>
         `;
     }).join('');

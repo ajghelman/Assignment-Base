@@ -19,7 +19,7 @@ section{
 }
 
 input{
-    width: 400px;
+    width: 500px;
     height: 25px;
     padding: 20px;
 }
@@ -29,7 +29,7 @@ div{
     display: flex;
 	justify-content: center;
 }
-
+/*
 .box{
     background-image: linear-gradient(rgb(255, 123, 0), oldlace);
     width: 400px;
@@ -37,33 +37,47 @@ div{
     padding-top: 10%;
 }
 
+
 .suggestions{
     background-image: linear-gradient(rgb(255, 123, 0), oldlace);
     width: 400px;
     display: block;
 }
+*/
 .suggestions li {
-    background: white;
+    width: 500px;
+    height: 190px;
     list-style: none;
-    border-bottom: 1px solid #D8D8D8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
-    margin: 0;
+    margin: 20px;
     padding: 20px;
     transition: background 0.2s;
-    display: flex;
+    display: block;
     justify-content: space-between;
+    text-align: left;
     text-transform: capitalize;
   }
   
+  .name{
+    font-family: 'Exo', sans-serif;
+    font-size: 23;
+  }
+
+  .address, .city, .zip{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+  }
+
   .suggestions li:nth-child(even) {
    
     background: linear-gradient(rgb(255, 123, 0), oldlace);
   }
   
   .suggestions li:nth-child(odd) {
-    background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+    background: linear-gradient(to top,  #757575 0%,#EFEFEF 100%);
   }
 
 .hl{
     background-color: rgb(255, 123, 0);
 }
+
